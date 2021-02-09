@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <nav class="d-flex jutify-content-between navbar navbar-light bg-light shadow">
+    <a href="/">
+      <img src="https://www.unir.net/wp-content/uploads/2020/03/logo-horizontal-1536x925.png" class="logo">          
+    </a>
+    <img src="/img/FotoPerfil.jpg" class="avatar rounded-circle">
+    </a>  
+    Herramientas de Visualización
+    <br>
+    Nestor Rabanal
+  </nav>
+
+  
+  <div class="container mt-4">
+
+    <div class="row">
+      <div class="col-md-2 col-md-offset-5">
+        Región:
+        <select id="region" class="mr-3"></select>
+
+        Métrica:
+        <select id="metrica" class="mr-3">
+          <option value="Harvested_area">Área Cosechada</option>
+          <option value="Production">Producción</option>
+          <option value="Yield">Rendimiento</option>
+        </select>
+
+        <button class="btn btn-outline-primary" onclick="cambiaOrden()">Descendente</button>
+                                                  
+
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-12">
+        <div id="graf" class="vizprev"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h4>Cultivos en América</h4>
+        <p>Se aprecia la mayor extensión de área cosecha en América se da precisamente en los países con mayor área; sin embargo, notamos que, aunque México tiene menos área cosechada que Canadá, el primero tiene mayor producción. Lo mismo sucede entre Colombia vs Paraguay y Ecuador con Guatemala, lo cual obedece a la calidad del suelo y clima que tienen los países con mayor producción. En el primer ejemplo, es claro que el clima en México es mucho mejor que en Canadá permitiendo contar con mejor producción.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="/js/d3.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
