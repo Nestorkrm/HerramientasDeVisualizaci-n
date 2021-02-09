@@ -1,0 +1,46 @@
+Country,Harvested_area,Production,Yield,region
+United States of America,344893,2225984,17190, North America 
+Brazil,211831,1505673,8924, South America 
+Argentina,107175,365640,8232, South America 
+Canada,86482,251346,9627, North America 
+Mexico,53967,299270,13674, North America 
+Paraguay,17594,53481,5426, South America 
+Bolivia,12000,32916,3822, South America 
+Colombia,8960,95129,9640, South America 
+Peru,8348,64834,11166, South America 
+Uruguay,7161,20250,6726, South America 
+Ecuador,6309,43094,5179, South America 
+Guatemala,6193,55506,8342, Central America 
+Venezuela,4870,32845,8517, South America 
+Haiti,4505,11816,3650, Central America 
+Chile,3478,35999,10959, South America 
+Cuba,3470,36143,4558, Central America 
+Honduras,2935,18943,7489, Central America 
+Nicaragua,2579,12118,3694, Central America 
+El Salvador,2239,12400,5734, Central America 
+Dominican Republic,1766,18027,9140, Central America 
+Costa Rica,1151,20806,9538, Central America 
+Guyana,740,5599,3029, South America 
+Panama,715,5777,5365, Central America 
+Jamaica,327,4103,6494, Central America 
+Belize,236,2504,5233, Central America 
+Suriname,213,1255,5508, South America 
+Trinidad and Tobago,74,268,2363, Central America 
+Puerto Rico,58,697,10372, Central America 
+Dominica,43,244,3101, Central America 
+Guadeloupe,36,1050,4640, Central America 
+French Guiana,32,243,4074, Central America 
+Martinique,31,714,3806, Central America 
+Saint Vincent and the Grenadines,30,225,3593, Central America 
+Grenada,20,74,3108, Central America 
+Bahamas,19,286,4928, Central America 
+Barbados,18,214,3737, Central America 
+Saint Lucia,17,70,2986, Central America 
+Antigua and Barbuda,7,31,1601, Central America 
+Saint Kitts and Nevis,4,12,1759, Central America 
+Montserrat,1,5,989, Central America 
+Bermuda,1,14,1951, Central America 
+Cayman Islands,1,1,318, Central America 
+British Virgin Islands,0,1,252, Central America 
+Saint Pierre and Miquelon,0,0,245, Central America 
+United States Virgin Islands,0,0,0, Central America 
